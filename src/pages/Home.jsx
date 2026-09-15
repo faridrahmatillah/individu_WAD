@@ -1,8 +1,11 @@
-const Home = () => {
+import Hero from "../component/Hero.jsx";
+
+function Home  ()  {
   return (
-    <div>
+    <div className= "text-purple-600">Home
       <h1>Home</h1>
       <p>Ini adalah halaman Home</p>
+      <section><Hero /></section>
     </div>
   );
 };
